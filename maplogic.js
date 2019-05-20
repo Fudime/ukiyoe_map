@@ -9,7 +9,7 @@ function initialise() {
   var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 16, attribution: osmAttrib});
   
   // start the map in Tokyo
-  myMap.setView(new L.LatLng(35.6895, 139.69171),10); 
+  myMap.setView(new L.LatLng(35.6895, 139.69171),12); 
   myMap.addLayer(osm);
 
 
